@@ -1,0 +1,105 @@
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.header{
+  text-align: center;
+  background-color: white;
+  height : 220px;
+  border-bottom-width: 15px;
+  border-bottom-style: solid;
+  border-color: rgb(22, 58, 113);
+
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+
+
+}
+
+.content{
+  text-align: center;
+  color: rgb(22, 58, 113);
+  
+}
+
+div{
+  font-size: 100px;
+  font-family: 'Arial';
+  
+}
+
+.logo-image{
+  height: 140px;
+  vertical-align: center;
+  margin-top: 45px;
+}
+
+.thanks{
+  font-size: 150px;
+  margin-top: 220px;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  font-weight: bold;
+  
+}
+
+.call{
+  font-size: 80px;
+ 
+  margin-top: 20px;
+}
+
+.update-info{
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 40px;
+  
+  margin-top: 100px;
+}
+
+.name{
+  
+  margin-top: 100px;
+  font-style: sans-serif;
+  display: inline-block;
+}
+
+.edit-image{
+  height: 120px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  
+  display: inline-block;
+  height: 120px;
+  vertical-align: bottom;
+}
+
+.paying{
+  margin-top: 70px;
+}
+
+.money{
+  
+  margin-top: 20px;
+  font-style: sans-serif;
+  display: inline-block;
+}
+
+.bill{
+  margin-top: 20px;
+}
+
+.submit{
+  margin-top: 70px;
+  font-size: 110px;
+  background-color: #BF9D60;
+  color: white;
+  padding: 25px 60px 25px 60px;
+  border-radius: 80px;
+  border-style: none;
+}
