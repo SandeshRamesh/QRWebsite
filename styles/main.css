@@ -1,6 +1,7 @@
 body{
   margin: 0;
   padding: 0;
+  padding-bottom: 200px;
   
 }
 
@@ -59,12 +60,13 @@ div{
   margin-right: 10%;
   font-size: 40px;
   
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .name{
   
   margin-top: 100px;
+  margin-right: -30px;
   font-style: sans-serif;
   display: inline-block;
 }
@@ -73,6 +75,8 @@ div{
   height: 120px;
   padding-bottom: 0px;
   margin-bottom: 0px;
+  margin-right: -100px;
+  right: 10px;
   
   display: inline-block;
   height: 120px;
