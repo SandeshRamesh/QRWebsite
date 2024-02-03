@@ -151,5 +151,3 @@ function getTextWidth(content) {
   
   return formattedWidth;
 } 
-
-alert("V3");
