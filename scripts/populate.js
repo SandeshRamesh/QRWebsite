@@ -1,8 +1,8 @@
 //import people from '../Data/people.json' assert {type: 'json'};
 
-var varsPageURL = window.location.search.substring(1);
+let varsPageURL = window.location.search.substring(1);
 
-var index;
+let index;
 
 // try{
 //   if(varsPageURL.length !== 0){
