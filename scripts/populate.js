@@ -1,4 +1,4 @@
-import people from '../Data/people.json' assert {type: 'json'};
+//import people from '../Data/people.json' assert {type: 'json'};
 
 var varsPageURL = window.location.search.substring(1);
 
