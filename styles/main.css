@@ -18,21 +18,15 @@ body{
   left: 0px;
   right: 0px;
   z-index: 100;
-
-
 }
 
 .content{
   text-align: center;
   color: rgb(22, 58, 113);
-  
-}
-
-div{
   font-size: 100px;
   font-family: 'Arial';
-  
 }
+
 
 .logo-image{
   height: 140px;
@@ -46,12 +40,10 @@ div{
   padding-top: 40px;
   padding-bottom: 25px;
   font-weight: bold;
-  
 }
 
 .call{
   font-size: 80px;
- 
   margin-top: 20px;
 }
 
@@ -59,47 +51,65 @@ div{
   margin-left: 10%;
   margin-right: 10%;
   font-size: 40px;
-  
   margin-top: 60px;
 }
 
-.name{
-  
+.name, .number{
+  height: 115px;
+  width:534px;
+  border-style: none;
+  padding: 0;
+  border: 1;
   margin-top: 100px;
-  margin-right: -30px;
-  font-style: sans-serif;
-  display: inline-block;
+  padding-right: 100px;
+  background-image: url('/images/edit.png');
+  background-position-x: 100%;
+  background-position-y: 70%;
+  background-repeat: no-repeat;
+  transform: translateX(50px);
+  font-size: 100px;
+  color: rgb(22, 58, 113);
 }
 
-.edit-image{
-  height: 120px;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-  margin-right: -100px;
-  right: 10px;
-  
-  display: inline-block;
-  height: 120px;
-  vertical-align: bottom;
+.name::placeholder, .number::placeholder{
+  font-size: 100px;
+  color: rgb(22, 58, 113);
+  text-align: center;
 }
+
+.number{
+  width:684px;
+}
+
 
 .paying{
   margin-top: 70px;
+  font-size: 90px;
 }
 
 .money{
-  
   margin-top: 20px;
-  font-style: sans-serif;
-  display: inline-block;
+  height: 115px;
+  width:634px;
+  border-style: none;
+  padding: 0;
+  border: 1;
+  background-image: url('/images/edit.png');
+  background-position-x: 100%;
+  background-position-y: 70%;
+  background-repeat: no-repeat;
+  transform: translateX(50px);
+  font-size: 100px;
+  color: rgb(22, 58, 113);
 }
 
 .bill{
   margin-top: 20px;
+  font-size: 90px;
 }
 
 .submit{
-  margin-top: 70px;
+  margin-top: 100px;
   font-size: 110px;
   background-color: #BF9D60;
   color: white;
