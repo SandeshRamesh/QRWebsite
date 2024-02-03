@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Development</title>
-    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/test.css">
   </head>
   <body>
     <div class="header"> 
@@ -15,24 +15,32 @@
       <div class="thanks">Thank You!</div>
       <div class="call">We will give you a call momentarily.</div>
       <div class="update-info">(Please update any incorrect information before our call)</div>
-      <div class="test">
-        <div class="name js-name">Sandesh Ramesh</div>
-        <img class = "edit-image" src="./images/edit.png">
-      </div>
-      <div>
-        <div class="name js-number">(860)-494-0002</div>
-        <img class="edit-image" src="./images/edit.png">
-      </div>
+
+      <input class="name js-name" placeholder="Joan Keene"></input>
+      <input class="number js-number" placeholder="(860) 494-0002"></input>
+      
       <div class="paying">Paying </div>
-      <div class="money js-price">$150 - $200</div>
-      <img class = "edit-image" src="./images/edit.png">
+      <select class="money js-price">
+        <option value ="" disabled selected>$150 - $200</option>
+        <option value="hurr">$50 - $100</option>
+        <option value="hurr">$100 - $150</option>
+        <option value="hurr">$150 - $200</option>
+        <option value="hurr">$200 - $250</option>
+        <option value="hurr">$250 - $300</option>
+        <option value="hurr">$350 - $400</option>
+        <option value="hurr">$400 - $500</option>
+        <option value="hurr">$500 - $600</option>
+        <option value="hurr">$600 - $700</option>
+        <option value="hurr">$800 - $900</option>
+        <option value="hurr">$900+</option>
+      </select>
       <div class="bill">on  Electricity Bill</div>
       <Button class="submit">Submit Changes</Button>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/jszip.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/jszip.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/xlsx.js"></script>
-    <script type="module" src="./scripts/populate.js"></script>
+    <script type="module" src="./scripts/populate.js"></script> -->
     
   </body>
 </html>
