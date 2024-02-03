@@ -117,3 +117,12 @@ body{
   border-radius: 80px;
   border-style: none;
 }
+
+.check{
+  margin-top: 400px;
+}
+
+.update{
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
