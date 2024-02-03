@@ -87,8 +87,8 @@ buttonElement.addEventListener('click', () =>{
 
 function sendText(edit){
   var xml = new XMLHttpRequest();
-  //xml.open("POST", "https://sandeshz.pythonanywhere.com/users", true);
-  xml.open("POST", "http://127.0.0.1:5000/users", true);
+  xml.open("POST", "https://sandeshz.pythonanywhere.com/users", true);
+  //xml.open("POST", "http://127.0.0.1:5000/users", true);
   xml.setRequestHeader("Access-Control-Allow-Origin", "http://127.0.0.1:5000/users");
   xml.setRequestHeader("Access-Control-Allow-Origin", "POST, GET, PUT");
   xml.setRequestHeader("Access-Control-Allow-Origin", "Content-type");
